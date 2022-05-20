@@ -6,6 +6,7 @@ x-volumes:
     volumes:
       - ./config:/app/config:delegated 
       - ./.lagoon.yml:/app/.lagoon.yml:delegated 
+      - files:/app/web/sites/default/files
 
 x-environment:
   &default-environment
