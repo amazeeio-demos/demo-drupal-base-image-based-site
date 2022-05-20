@@ -1,0 +1,6 @@
+name: demo-drupal-bimg-one
+recipe: lagoon
+config:
+  flavor: drupal
+  build:
+    - composer install
